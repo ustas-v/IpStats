@@ -5,20 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.7.3
 
-* System dependencies
+* Rails 6.1.4
 
-* Configuration
+* Sidekiq
 
-* Database creation
+* PostgreSQL (with TimescaleDB extension)
 
-* Database initialization
+* bundle exec rake db:migrate
 
-* How to run the test suite
+* bundle exec rails server
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* bundle exec sidekiq
