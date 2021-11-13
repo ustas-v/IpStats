@@ -18,3 +18,5 @@ Things you may want to cover:
 * bundle exec rails server
 
 * bundle exec sidekiq
+
+* open http://localhost:3000/swagger
